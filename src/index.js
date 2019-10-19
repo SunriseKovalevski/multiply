@@ -1,3 +1,1 @@
-module.exports = function multiply(first, second) {
-  return first * second + "";
-};
+module.exports = multiply = (...args) => eval([...args].join("*")) + "";
